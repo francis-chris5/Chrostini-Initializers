@@ -1,0 +1,2 @@
+# Chrostini-Initializers
+One of my favorite features on a Chromebook is the "Powerwash" ability. Very easily return to near-factory reset whenever I want to change the configuration to match the upcoming usage on the machine, and I mostly use the built in virtual Ubuntu desktop known as Chrostini. This repository is some shell scripts to rapidly set that up to the configurations I find myself wanting quite often.
