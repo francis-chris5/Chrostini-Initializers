@@ -11,6 +11,6 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   The shortcut to ChromeOS Downloads folder didn't work the first time, had to go to Files and right-click -> "open with terminal" before running the script even though the address is correct.
   
-  Still had to manually confirm the messages on xampp install, they are from installer not bash, so I could not pass in confirmations in initial script (still type y three times easier than doing a full type of this set up in bash)
+  Still had to manually confirm the messages on xampp install, they are from installer not bash, so I could not pass in confirmations in initial script (typing 'y' three times easier than doing a full type of this set up in bash)
   
   
