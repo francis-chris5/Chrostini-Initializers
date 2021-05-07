@@ -19,7 +19,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li>remove the full-stack.sh file when complete</li>
   <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL
-    <li>to start sublime: <b>sublime</b> at any directory in bash to start Sublime Text, <b>sublime /directory/filename</b> to open a text file in it</li>
+    <li><b>sublime</b> at any directory in bash to start Sublime Text, <b>sublime /directory/filename</b> to open a text file in it</li>
     <li><b>javac filename</b> in bash to compile Java Programs, <b>java -cp /directory/to/class-files filename</b> in bash to run java programs</li>
     <li><b>python3.7</b> in bash to start interpreter, <b>python3.7 /directory/filename</b> to run a python script</li>
     <li><b>mysql -h localhost -u root</b> to start MySQL, add in <b>-p (password)</b> if you change it from the default</li>
