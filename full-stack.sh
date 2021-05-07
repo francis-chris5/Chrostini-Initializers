@@ -59,4 +59,5 @@ sudo apt install menulibre -y
 sudo apt install firefox-esr -y
 
 
+        # shortcuts to MySQL and sublime
 echo $'\n\nexport PATH="/opt/lampp/bin:~/Documents/Programs/sublime_text_3:$PATH"\n\n' >> .bashrc
