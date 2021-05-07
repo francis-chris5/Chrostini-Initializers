@@ -7,7 +7,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
 
 (still under construction, expect it to be finished before bedtime on the day this repository was created)
 
-(when finished it should be pretty close to just download and run the full-stack.sh bash script and be ready to go --a couple issues to work out from full automation just yet though)
+(when finished it should be pretty close to just download and run the full-stack.sh bash script --or pick and choose the compoents for it from the bash script in aptly named folder-- and be ready to go. A couple issues to work out from full automation just yet though)
 
 <blockquote>
   <h4>Bugs</h4>
