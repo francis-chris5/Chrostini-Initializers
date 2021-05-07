@@ -38,9 +38,9 @@ ln -s /opt/lampp/htdocs/
         # sublime text editor
         		# check https://www.sublimetext.com/3 for latest version
 wget https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
-tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/ 
+sudo tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/ 
 rm sublime_text_3_*_x64.tar.bz2
-mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
+sudo mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
 
 
 		# netbeans ide
