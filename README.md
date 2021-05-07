@@ -35,7 +35,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <ul>
   <li>remember to open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work</li>
   <li>still have to manually confirm xampp install --part of package not in bash terminal need to look into how to automate this</li>
-  <li>first test IDLE installed, but second test IDLE did not install even though python3.7 did (TRY: add update/upgrade apt to this script may fix if persistent issue)</li>
+  <li>first test IDLE installed, but second test IDLE did not install even though python3.7 did (TRY: add update/upgrade apt to this script may fix if persistent issue) --worked the third time</li>
   </ul>
   
   
