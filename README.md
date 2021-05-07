@@ -19,6 +19,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>run the shell script (Still had to manually make confirmations for XAMPP install)</li>
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li>remove the full-stack.sh file when complete</li>
+  <li>I've been exiting and reopening the terminal because I'm not sure if the changes to .bashrc have been read in yet at this point --I'll check soon</li>
   <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL
     <li><b>sublime</b> at any directory in bash to start Sublime Text, <b>sublime /directory/filename</b> to open a text file in it</li>
     <li><b>javac filename</b> in bash to compile Java Programs, <b>java -cp /directory/to/class-files filename</b> in bash to run java programs</li>
@@ -35,7 +36,6 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <ul>
   <li>remember to open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work</li>
   <li>still have to manually confirm xampp install --part of package not in bash terminal need to look into how to automate this</li>
-  <li>first test IDLE installed, but second test IDLE did not install even though python3.7 did (TRY: add update/upgrade apt to this script may fix if persistent issue) --worked the third time</li>
   </ul>
   
   
