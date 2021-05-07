@@ -12,7 +12,6 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <ol>
   <li>download the full-stack.sh bash script</li>
   <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
-  <li>in ChromeOS Files app right-click on Downloads folder and 'open with terminal' once before running script or shortcut to it will not set up properly</li>
   <li>use ChromeOS Files App to move full-stack.sh to "Linux Files" directory</li>
   <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
   <li>change permissions for full-stack.sh file (I've just been going with 777)</li>
@@ -34,8 +33,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   
   <ul>
-  <li>remember to open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work</li>
-  <li>similar issue with symlink to Drive, have to share from drive before right->click->'open with terminal' and then can make a symlink --I don't currently see a way to automate this in initial script</li>
+  <li>must open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work, occurs again at reboot</li>
+  <li>similar issue with symlink to Drive, have to share from drive (shortcut not here yet) before right->click->'open with terminal' and then can make a symlink --I don't currently see a way to automate this in initial script</li>
   <li>still have to manually confirm xampp install --part of package not in bash terminal need to look into how to automate this</li>
   </ul>
   
