@@ -4,7 +4,10 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
 
 <h2>Full Stack Developer</h2>
 My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts.
+
 (still under construction, expect it to be finished before bedtime on the day this repository was created)
+
+(when finished it should be pretty close to just download and run the full-stack.sh bash script and be ready to go --a couple issues to work out from full automation just yet though)
 
 <blockquote>
   <h4>Bugs</h4>
