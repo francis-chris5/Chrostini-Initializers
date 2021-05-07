@@ -57,3 +57,6 @@ sudo apt install menulibre -y
         
         # browser to test with xampp localhost access
 sudo apt install firefox-esr -y
+
+
+echo $'\n\nexport PATH="/opt/lampp/bin:~/Documents/Programs/sublime_text_3:$PATH"\n\n' >> .bashrc
