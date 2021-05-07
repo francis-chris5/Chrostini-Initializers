@@ -34,7 +34,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   <ul>
   <li>must open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work, occurs again at reboot</li>
-  <li>similar issue with symlink to Drive, have to share from drive (shortcut not here yet) before right->click->'open with terminal' and then can make a symlink --I don't currently see a way to automate this in initial script</li>
+  <li>similar issue with symlink to Drive, have to share from drive (shortcut not here yet) before right->click->'open with terminal' and then can make a symlink --I don't currently see a way to automate this in initial script from newly powerwashed Chromebook --haven't look into it yet though</li>
   <li>still have to manually confirm xampp install --part of package not in bash terminal need to look into how to automate this</li>
   </ul>
   
