@@ -5,15 +5,31 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
 <h2>Full Stack Developer</h2>
 My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts.
 
-(still under construction, expect it to be finished before bedtime on the day this repository was created)
-
-(when finished it should be pretty close to just download and run the full-stack.sh bash script --or pick and choose the compoents for it from the bash script in aptly named folder-- and be ready to go. A couple issues to work out from full automation just yet though)
 
 <blockquote>
-  <h4>Bugs</h4>
+  <h4>Instructions and Issues</h4>
   
-  The shortcut to ChromeOS Downloads folder didn't work the first time, had to go to Files and right-click -> "open with terminal" before running the script even though the address is correct.
+  <ol>
+  <li>download the full-stack.sh bash script</li>
+  <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
+  <li>in ChromeOS Files app right-click on Downloads folder and 'open with terminal' once before running script or shortcut to it will not set up properly</li>
+  <li>use ChromeOS Files App to move full-stack.sh to "Linux Files" directory</li>
+  <li>change permissions (I've just been going with 777)</li>
+  <li>run the shell script (Still had to manually make confirmations for XAMPP install)</li>
+  <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
+  <li>remove the full-stack.sh file when complete</li>
+  <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL<li>to start sublime: <b>sublime filename</b> at any directory in bash</li></li>
+  <li><ul>test your webpages on the firefox instance running on Chrostini Desktop<li>to start localhost: <b>sudo /opt/lampp/xampp startapache</b>, <b>sudo opt/lamp/xampp startmysql</b></li></ul></li>
   
-  Still had to manually confirm the messages on xampp install, they are from installer not bash, so I could not pass in confirmations in initial script (typing 'y' three times easier than doing a full type of this set up in bash)
   
+  <ul>
+  <li>remember to open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work</li>
+  <li>first test IDLE installed, but second test IDLE did not install even though python3.7 did (TRY: add update/upgrade apt to this script may fix if persistent issue)</li>
+  </ul>
+  
+  
+  </blockquote>
+  
+  
+  more configurations coming soon...
   
