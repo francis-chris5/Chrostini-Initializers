@@ -1,0 +1,16 @@
+final portion of this is to get this line:
+
+export PATH="/opt/lampp/bin:~/Documents/Progams/sublime_text_3/:$PATH"
+
+
+into the bottom of .bashrc
+
+
+some thoughts:
+  figure out if I can edit .bashrc from inside a script (doesn't running my script refer to it???)
+  python is installed, port (import os.path ... x = readline .... writeline (that stuff) ... print back to file)
+  can I just printf>.bashrc ???
+  
+  
+  
+probably going to be a few powerwashes to get this going...
