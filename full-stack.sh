@@ -51,23 +51,30 @@ sudo mv netbeans /usr/share/netbeans
 
 
 
-        # thing to create desktop shortcuts
-sudo apt install menulibre -y
-                #################################
-                ##                             ##
-                ## replace this with actually  ##
-                ## writing the [Desktop Entry] ##
-                ## file eventually             ##
-                ##      - need sublime         ##
-                ##      - need netbeans        ##
-                ##      - have extra idle      ##
-                ##                             ##
-                #################################
-
         
         # browser to test with xampp localhost access
 sudo apt install firefox-esr -y
 
 
-        # shortcuts to MySQL and sublime
+	### APP SCREEN SHORTCUTS
+
+			# Sublime Desktop Shorcut
+echo $'[Desktop Entry]\nName=Sublime Text 3\nComment=Text Editor\nIcon=/usr/share/sublime_text_3/Icon/256x256/sublime-text.png\nExec=/usr/share/sublime_text_3/sublime\nType=Application\n' > sublime.desktop
+
+
+			# NetBeans Desktop Shortcut
+echo $'[Desktop Entry]\nName=NetBeans\nComment=Java IDE\nExec=/usr/share/netbeans/netbeans\nType=Application\n' > netbeans.desktop
+
+
+						# move give wrong ownership --look into why
+sudo cp sublime.desktop /usr/share/applications/sublime.desktop
+sudo cp netbeans.desktop /usr/share/applications/netbeans.desktop
+rm sublime.desktop
+rm netbeans.desktop
+
+
+
+
+
+        # bash terminal shortcuts to MySQL and sublime
 echo $'\n\nexport PATH="/opt/lampp/bin:/usr/share/sublime_text_3:/usr/share/netbeans:$PATH"\n\n' >> .bashrc
