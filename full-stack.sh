@@ -4,12 +4,10 @@
     ### SET UP WORKING DIRECTORIES
 mkdir ~/Documents	## place to organize projects
 mkdir ~/Documents/delete	## for general scrap/scratch/temporary files
+mkdir ~/Documents/Programs	## for tarball installs and some scripts
 ln -s /mnt/chromeos/MyFiles/Downloads/	## access to ChromeOS downloads folder
 
 
-    ### Update and Upgrade apt
-sudo apt update
-sudo apt upgrade -y
 
 
     ### INSTALL LANGUAGES
@@ -38,9 +36,9 @@ ln -s /opt/lampp/htdocs/
         # sublime text editor
         		# check https://www.sublimetext.com/3 for latest version
 wget https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
-tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/ 
+tar -xf sublime_text_3_*_x64.tar.bz2 -C ~/Documents/Programs/
 rm sublime_text_3_*_x64.tar.bz2
-mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
+mv ~/Documents/Programs/sublime_text_3/sublime_text ~/Documents/Programs/sublime_text_3/sublime
 
 
 
@@ -62,4 +60,4 @@ sudo apt install firefox-esr -y
 
 
         # shortcuts to MySQL and sublime
-echo $'\n\nexport PATH="/opt/lampp/bin:/usr/share/sublime_text_3:$PATH"\n\n' >> .bashrc
+echo $'\n\nexport PATH="/opt/lampp/bin:~/Documents/Programs/sublime_text_3:$PATH"\n\n' >> .bashrc
