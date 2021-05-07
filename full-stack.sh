@@ -4,10 +4,12 @@
     ### SET UP WORKING DIRECTORIES
 mkdir ~/Documents	## place to organize projects
 mkdir ~/Documents/delete	## for general scrap/scratch/temporary files
-mkdir ~/Documents/Programs	## for tarball installs and some scripts
 ln -s /mnt/chromeos/MyFiles/Downloads/	## access to ChromeOS downloads folder
 
 
+    ### Update and Upgrade apt
+sudo apt update
+sudo apt upgrade -y
 
 
     ### INSTALL LANGUAGES
@@ -36,9 +38,16 @@ ln -s /opt/lampp/htdocs/
         # sublime text editor
         		# check https://www.sublimetext.com/3 for latest version
 wget https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
-tar -xf sublime_text_3_*_x64.tar.bz2 -C ~/Documents/Programs/
+tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/ 
 rm sublime_text_3_*_x64.tar.bz2
-mv ~/Documents/Programs/sublime_text_3/sublime_text ~/Documents/Programs/sublime_text_3/sublime
+mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
+
+
+		# netbeans ide
+wget https://apprepo.de/appimage/download/netbeans
+chmod 755 netbeans
+sudo mkdir /usr/share/netbeans
+sudo mv netbeans /usr/share/netbeans
 
 
 
@@ -50,6 +59,7 @@ sudo apt install menulibre -y
                 ## writing the [Desktop Entry] ##
                 ## file eventually             ##
                 ##      - need sublime         ##
+                ##      - need netbeans        ##
                 ##      - have extra idle      ##
                 ##                             ##
                 #################################
@@ -60,4 +70,4 @@ sudo apt install firefox-esr -y
 
 
         # shortcuts to MySQL and sublime
-echo $'\n\nexport PATH="/opt/lampp/bin:~/Documents/Programs/sublime_text_3:$PATH"\n\n' >> .bashrc
+echo $'\n\nexport PATH="/opt/lampp/bin:/usr/share/sublime_text_3:/usr/share/netbeans:$PATH"\n\n' >> .bashrc
