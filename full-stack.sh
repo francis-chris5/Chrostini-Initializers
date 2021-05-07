@@ -19,6 +19,7 @@ sudo apt install libnss3 default-jdk -y
 
         # Python and IDLE
 sudo apt install idle3 -y
+sudo apt install python3-pip -y
 
 
         # XAMPP (Apache, PHP, MySQL)
