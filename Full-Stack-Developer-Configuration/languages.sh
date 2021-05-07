@@ -18,3 +18,11 @@ sudo ./xampp-linux-*-installer.run
 rm xampp-linux-*-installer.run
 sudo chmod 777 /opt/lampp/htdocs
 ln -s /opt/lampp/htdocs/
+
+            #############################################
+            ##                                         ##
+            ## had to manually confirm three questions ##
+            ## that came from xampp, so not sure how   ##
+            ## to pass that in automatically yet       ##
+            ##                                         ##
+            #############################################
