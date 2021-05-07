@@ -14,6 +14,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
   <li>in ChromeOS Files app right-click on Downloads folder and 'open with terminal' once before running script or shortcut to it will not set up properly</li>
   <li>use ChromeOS Files App to move full-stack.sh to "Linux Files" directory</li>
+  <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
   <li>change permissions for full-stack.sh file (I've just been going with 777)</li>
   <li>run the shell script (Still had to manually make confirmations for XAMPP install)</li>
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
