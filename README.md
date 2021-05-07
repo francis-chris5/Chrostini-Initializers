@@ -19,7 +19,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>run the shell script (Still had to manually make confirmations for XAMPP install)</li>
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li>remove the full-stack.sh file when complete</li>
-  <li>I've been exiting and reopening the terminal because I'm not sure if the changes to .bashrc have been read in yet at this point --I'll check soon</li>
+  <li>I've been exiting and reopening the terminal because I'm not sure if the changes to .bashrc have been read in yet at this point --I'll check actual necessity of this soon</li>
   <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL
     <li><b>sublime</b> at any directory in bash to start Sublime Text, <b>sublime /directory/filename</b> to open a text file in it</li>
     <li><b>javac filename</b> in bash to compile Java Programs, <b>java -cp /directory/to/class-files filename</b> in bash to run java programs</li>
