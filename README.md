@@ -33,6 +33,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   
   <ul>
+  <li>Sublime shortcut is not in the Linux Desktop folder yet, menulibre is installed to add it if desired, the icon is in ~/Documents/Programs/sublime_text_3/Icon and full command to start it is ~/Documents/Programs/sublime_text_3/sublime</li>
   <li>remember to open ChromeOS Downloads folder with terminal once before running script or the shortcut won't work</li>
   <li>first test IDLE installed, but second test IDLE did not install even though python3.7 did (TRY: add update/upgrade apt to this script may fix if persistent issue)</li>
   </ul>
