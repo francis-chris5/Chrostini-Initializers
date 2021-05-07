@@ -1,7 +1,7 @@
 final portion of this is to get this line:
 
-export PATH="/opt/lampp/bin:~/Documents/Progams/sublime_text_3/:$PATH"
 
+export PATH="/opt/lampp/bin:~/Documents/Programs/sublime_text_3:$PATH"
 
 into the bottom of .bashrc
 
