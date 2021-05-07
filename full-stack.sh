@@ -2,10 +2,10 @@
 
 
     ### SET UP WORKING DIRECTORIES
-mkdir ~/Documents
-mkdir ~/Documents/delete
-mkdir ~/Documents/Programs
-ln -s /mnt/chromeos/MyFiles/Downloads/
+mkdir ~/Documents	## place to organize projects
+mkdir ~/Documents/delete	## for general scrap/scratch/temporary files
+mkdir ~/Documents/Programs	## for tarball installs and some scripts
+ln -s /mnt/chromeos/MyFiles/Downloads/	## access to ChromeOS downloads folder
 
 
 
@@ -34,6 +34,7 @@ ln -s /opt/lampp/htdocs/
 
 
         # sublime text editor
+        		# check https://www.sublimetext.com/3 for latest version
 wget https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
 tar -xf sublime_text_3_*_x64.tar.bz2 -C ~/Documents/Programs/
 rm sublime_text_3_*_x64.tar.bz2
@@ -47,7 +48,9 @@ sudo apt install menulibre -y
                 ##                             ##
                 ## replace this with actually  ##
                 ## writing the [Desktop Entry] ##
-                ## eventually                  ##
+                ## file eventually             ##
+                ##      - need sublime         ##
+                ##      - have extra idle      ##
                 ##                             ##
                 #################################
 
