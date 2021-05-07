@@ -19,7 +19,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li>remove the full-stack.sh file when complete</li>
   <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL<li>to start sublime: <b>sublime filename</b> at any directory in bash</li></ul></li>
-  <li><ul>test your webpages on the firefox instance running on Chrostini Desktop <b>firefox-esr</b> from any directory in bash terminal <li>to start localhost: <b>sudo /opt/lampp/xampp startapache</b>, <b>sudo opt/lamp/xampp startmysql</b></li></ul></li>
+  <li><ul>test your webpages on the firefox instance running on Chrostini Desktop <b>firefox-esr</b> from any directory in bash terminal <li>to start localhost: <b>sudo /opt/lampp/xampp startapache</b>, <b>sudo /opt/lamp/xampp startmysql</b></li></ul></li>
   
   
   <ul>
