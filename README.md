@@ -62,10 +62,14 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
     <li><b>gnucash</b> at any directory in bash to start GNU Cash</li>
     <li><ul><b>ganttproject</b> at any directory in bash to start LibreOffice, <b>ganttproject /directory/filename.gan</b> to open an existing project in it
       <li>keeps a java~.log in home folder, remember to clear those occassionaly</li>
+      <li>have to hit ctrl+c in terminal to stop logging after closing software</li>
       </ul></li>
     </ul>
   </ol>
-  
+
+  <br>
+  <br>
+  <br>
   <ul>
   <li>need to automate downloading the icon</li>
   </ul>
