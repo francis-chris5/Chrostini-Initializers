@@ -5,6 +5,7 @@
 mkdir ~/Documents	## place to organize projects
 mkdir ~/Documents/delete	## for general scrap/scratch/temporary files
 ln -s /mnt/chromeos/MyFiles/Downloads/	## access to ChromeOS downloads folder
+ln -s /mnt/chromeos/GoogleDrive/MyDrive/ ## access to Google Drive
 
 
     ### Update and Upgrade apt
