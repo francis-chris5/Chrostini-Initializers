@@ -47,6 +47,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   Business tasks sort of desktop: Document-Spreadsheet-Presentation-Database, Accounting software, Project Management Software, and Scheduling/Calendar/Emain Software. All the general run a business, organize your work/personal tasks, track finances/budgets, and plan out your projects.
   
+  ![paperwork-desktop](https://user-images.githubusercontent.com/50467171/117540198-f51dc680-afdb-11eb-832a-48c9d8a41d47.png)
+  
   <blockquote>
   <h4>Instructions and Issues</h4>
   
