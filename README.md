@@ -59,6 +59,10 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>run the shell script</li>
   <li><ul>start carrying out document, spreadsheet, presentation, and small database tasks, along with filling software needs for scheduling, planning, budgeting, and communication.
     <li><b>libreoffice</b> at any directory in bash to start LibreOffice, <b>libreoffice /directory/filename.od~</b> to open a compatible file in it</li>
+    <li><b>gnucash</b> at any directory in bash to start GNU Cash</li>
+    <li><ul><b>ganttproject</b> at any directory in bash to start LibreOffice, <b>ganttproject /directory/filename.gan</b> to open an existing project in it
+      <li>keeps a java~.log in home folder, remember to clear those occassionaly</li>
+      </ul></li>
     </ul>
   </ol>
   
