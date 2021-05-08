@@ -1,6 +1,18 @@
 # Chrostini-Initializers
 One of my favorite features on a Chromebook is the "Powerwash" ability. Very easily return to near-factory reset whenever I want to change the configuration to match the upcoming usage on the machine, and I mostly use the built in virtual Ubuntu desktop known as Chrostini when on a Chromebook. This repository is some shell scripts to rapidly set that up to the configurations I find myself using the most often.
 
+<h2>General instruction</h2>
+<ol>
+  <li>Powerwash the chrome book to be ready for a fresh workload: Settings -> Advanced -> Powerwash (should be very last item on list)</li>
+  <li>Follow the on-screen prompts</li>
+  <li>After the chromebook initializes activate the Linux Desktop, if you had it pinned to shelf simply click icon there, otherwise Settings -> Advanced -> Linux(beta)</li>
+  <li>All these desktops include shortcuts to Google Drive and the ChromeOS Downloads folder, permissions need given here after every restart. Open the ChromeOS Files App [alt+shift+m] and right-click on the Google Drive link, choose 'Share With Linux', then right click on the Downloads folder and choose 'Open in Terminal'</li>
+  <li>Open Google Chrome and navigate to https://github.com/francis-chris5/Chrostini-Initialiers to download the available desktops: click the green button labeled "Code" and choose 'Download Zip'</li>
+  </li>In the ChromeOS Files App [alt+shift+m] Downloads folder you should see the zip file, simply click to navigate into it and find the desired desktop. Drag (or copy and paste) the .sh file into the 'Linux Files' directory</li>
+  <li>Open the Linux Desktop terminal and type <b>chmod 755 (filename).sh</b> and hit enter, at the next prompt type <b>./(filename).sh</b> hit enter and wait for it to run. NOTE: (filename) is the name of the file you downloaded. Some of the desktops require confirmations, so check detailed instructions below to see if you need to enter 'y' a couple times as it installs</li>
+  <li>When the shell script finishes your ready to get to work</li>
+  </ol>
+
 
 <h2>Full Stack Developer</h2>
 My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts.
