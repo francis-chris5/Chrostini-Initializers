@@ -13,9 +13,12 @@ sudo apt update
 sudo apt upgrade -y
 
 
+		# GNUCash
+			# accounting software
+sudo apt install gnucash -y
+
 
 		# LibreOffice 7.1
-
 wget https://apprepo.de/appimage/download/libreoffice
 chmod 755 libreoffice
 sudo mkdir /usr/share/LibreOffice
