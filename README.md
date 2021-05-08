@@ -45,7 +45,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <br>
   <h2>Paperwork</h2>
   
-  Business tasks sort of desktop: Office software, Accounting software, (project management coming soon), (scheduling/calendar coming soon), (email client coming soon)
+  Business tasks sort of desktop: Document-Spreadsheet-Presentation-Database, Accounting software, Project Management Software, (scheduling/calendar coming soon), (email client coming soon)
   
   <blockquote>
   <h4>Instructions and Issues</h4>
