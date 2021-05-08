@@ -6,6 +6,9 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
 My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts.
 
 
+![full-stack-desktop](https://user-images.githubusercontent.com/50467171/117541125-6eb7b380-afe0-11eb-855a-143c83450458.png)
+
+
 <blockquote>
   <h4>Instructions and Issues</h4>
   
