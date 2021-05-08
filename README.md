@@ -56,7 +56,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
   <li>change permissions for paperwork.sh file (I've just been going with 777 or 755)</li>
   <li>run the shell script</li>
-  <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL
+  <li><ul>start carrying out document, spreadsheet, presentation, and small database tasks
     <li><b>libreoffice</b> at any directory in bash to start LibreOffice, <b>libreoffice /directory/filename.od~</b> to open a compatible file in it</li>
     </ul>
   </ol>
