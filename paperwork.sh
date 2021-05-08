@@ -37,9 +37,18 @@ echo $'\n\nexport PATH="/usr/share/LibreOffice:$PATH"\n' >> .bashrc
 
 
 
+	### PROJECT MANAGEMENT
+	
 		# GanttProject
 			## project management software
 wget https://dl.ganttproject.biz/ganttproject-2.8.11/ganttproject_2.8.11-r2396-1_all.deb
 sudo dpkg -i ganttproject_2.8.11-r2396-1_all.deb
 rm ganttproject_2.8.11-r2396-1_all.deb
+
+
+
+	### SCHEDULING
+
+		#Evolution
+sudo apt install evolution -y
 
