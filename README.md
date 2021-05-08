@@ -62,7 +62,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   </ol>
   
   <ul>
-  <li>need to automate downloading the icon<li>
+  <li>need to automate downloading the icon</li>
   </ul>
   
   </blockqoute>
