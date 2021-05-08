@@ -8,9 +8,16 @@ ln -s /mnt/chromeos/MyFiles/Downloads/	## access to ChromeOS downloads folder
 ln -s /mnt/chromeos/GoogleDrive/MyDrive ## access to Google Drive
 
 
-    ### Update and Upgrade apt
+
+    ### UPDATES AND DEPENDENCIES 
+        ### Update and Upgrade apt
 sudo apt update
 sudo apt upgrade -y
+
+
+        ### set up a java dependency for Gantt Project
+sudo apt install libnss3 default-jdk -y
+
 
 
 	### ACCOUNTING
