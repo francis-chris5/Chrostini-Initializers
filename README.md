@@ -41,6 +41,10 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   </blockquote>
   
+  <br>
+  <br>
+  <h2>Paperwork<h2>
+  I am typically a Google Office Suite user, got introduced to it in 2010, and by 2018 I was using it on my phone --the final device to switch to it--, and haven't really used local office software in years, but I still like to check on this type of software so basic usage isn't forgotten (don't want to get locked into using just one software application) so it seemed reasonable to put a desktop together for office sort of work. Right now it's not much more than an install script for LibreOffice7.1 appimage, but there will be an accounting software to accompany it soon as well as ... (running is the same as the first few steps in other desktops for now)...
   
   more configurations coming soon...
   
