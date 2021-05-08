@@ -58,7 +58,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   <br>
   <br>
-  <h2>Paperwork</h2>
+  <h2>Paperwork --CURRENTLY BROKEN--</h2>
   
   Business tasks sort of desktop: Document-Spreadsheet-Presentation-Database, Accounting software, Project Management Software, and Scheduling/Calendar/Emain Software. All the general run a business, organize your work/personal tasks, track finances/budgets, and plan out your projects.
   
@@ -87,6 +87,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <br>
   <ul>
   <li>need to automate downloading the icons</li>
+  <li>CURRENTLY BROKEN: it couldn't find a java runtime so going to try installing jdk11 first, that's the only one I know off the top of my head.</li>
   </ul>
   
   </blockqoute>
