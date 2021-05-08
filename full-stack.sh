@@ -52,9 +52,19 @@ sudo mkdir /usr/share/netbeans
 sudo mv netbeans /usr/share/netbeans
 
 
-
+	### GRAPHICS
+	
+			# a well known image editor, tons of features, which can be a little complex/time-consuming for test images
+sudo apt install gimp -y
+			# current pick for QUICK test images -smiley faces and stick men to hold the place until the real image is ready
+sudo apt install kolourpaint -y
+			# This is my preferred editor for .svg graphics: mouse or text editing, python scripting, and more
+sudo apt install inkscape -y
         
-        # browser to test with xampp localhost access
+	
+	
+	### TEST ENVIRONMENTS
+        # browser to test with xampp localhost access for testing and phpMyAdmin for managing MySQL
 sudo apt install firefox-esr -y
 
 
