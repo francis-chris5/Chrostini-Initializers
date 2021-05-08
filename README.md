@@ -44,7 +44,28 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <br>
   <br>
   <h2>Paperwork</h2>
-  I am typically a Google Office Suite user, got introduced to it in 2010, and by 2018 I was using it on my phone --the final device to switch to it--, and haven't really used local office software in years, but I still like to check on this type of software so basic usage isn't forgotten (don't want to get locked into using just one software application) so it seemed reasonable to put a desktop together for office sort of work. Right now it's not much more than an install script for LibreOffice7.1 appimage, but there will be an accounting software to accompany it soon as well as ... (running is the same as the first few steps in other desktops for now)...
+  I am typically a Google Office Suite user, got introduced to it in 2010, and by 2018 I was using it on my phone --the final device to switch to it--, and haven't really used local office software in years, but I still like to check on this type of software so basic usage isn't forgotten (don't want to get locked into using just one software application) so it seemed reasonable to put a desktop together for office sort of work. Right now it's not much more than an install script for LibreOffice7.1 appimage, but there will be an accounting software to accompany it soon as well as ... 
+  
+  <blockquote>
+  <h4>Instructions and Issues</h4>
+  
+  <ol>
+  <li>download the paperwork.sh bash script</li>
+  <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
+  <li>use ChromeOS Files App to move paperwork.sh to "Linux Files" directory</li>
+  <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
+  <li>change permissions for paperwork.sh file (I've just been going with 777 or 755)</li>
+  <li>run the shell script</li>
+  <li><ul>start coding in Java, Python, HTML, JavaScript, PHP, and MySQL
+    <li><b>libreoffice</b> at any directory in bash to start LibreOffice, <b>libreoffice /directory/filename.od~</b> to open a compatible file in it</li>
+    </ul>
+  </ol>
+  
+  <ul>
+  <li>need to automate downloading the icon<li>
+  </ul>
+  
+  </blockqoute>
   
   more configurations coming soon...
   
