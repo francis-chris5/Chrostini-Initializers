@@ -10,7 +10,7 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
   <li>Open Google Chrome and navigate to https://github.com/francis-chris5/Chrostini-Initializers to download the available desktops: click the green button labeled "Code" and choose 'Download Zip'</li>
   </li>In the ChromeOS Files App [alt+shift+m] Downloads folder you should see the zip file, simply click to navigate into it and find the desired desktop. Drag (or copy and paste) the .sh file into the 'Linux Files' directory</li>
   <li>Open the Linux Desktop terminal and type <b>chmod 755 (filename).sh</b> and hit enter, at the next prompt type <b>./(filename).sh</b> hit enter and wait for it to run. NOTE: (filename) is the name of the file you downloaded. Some of the desktops require confirmations, so check detailed instructions below to see if you need to enter 'y' a couple times as it installs</li>
-  <li>When the shell script finishes your ready to get to work</li>
+  <li>When the shell script finishes type <b>rm (filename).sh</b> and hit enter: you're ready to get to work now</li>
   </ol>
 
 
