@@ -104,6 +104,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   --picture coming soon--
   
   <blockqoute>
+  
+  
   <h4>Instructions and Issues</h4>
   
   <ol>
