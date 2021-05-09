@@ -89,9 +89,12 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>need to automate downloading the icons</li>
    </ul>
   
+  
+  
   </blockqoute>
   
-  
+  <br>
+  <br>
   
   more configurations coming soon...
   
