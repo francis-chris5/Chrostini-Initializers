@@ -111,6 +111,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   <ul>
   <li>issues coming when the thing gets debugged</li>
+  <li>upon plugging in uno board a message popped up with option to 'connect usb to linux' if not go to chrome://flags and set chrostini-usb to enabled</li>
   </ul>
   
   </blockqoute>
