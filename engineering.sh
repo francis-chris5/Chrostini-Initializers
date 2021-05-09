@@ -16,7 +16,7 @@ sudo apt upgrade -y
 
     ### DIGITAL MODELING
         # Blender
-            # not real CAM, but can export .stl and freecad can convert to .igs file
+            # not real CAM, but can export .stl and freecad can convert to .igs and .pwt file
 sudo apt install blender -y
 
 
@@ -42,7 +42,7 @@ echo $'[Desktop Entry]\nName=Arduino IDE\nComment=IDE for bootloadable microcont
 sudo cp arduino.desktop /usr/share/applications/arduino.desktop
 rm arduino.desktop
 
-        # bash terminal shortcuts to MySQL and sublime
+        # bash terminal shortcuts to arduino
 echo $'\nexport PATH="/usr/share/arduino-1.8.13:$PATH"\n\n' >> .bashrc
 
 
@@ -61,7 +61,7 @@ echo $'[Desktop Entry]\nName=Energia IDE\nComment=IDE for flash-only microcontro
 sudo cp energia.desktop /usr/share/applications/energia.desktop
 rm energia.desktop
 
-        # bash terminal shortcuts to MySQL and sublime
+        # bash terminal shortcuts to arduino
 echo $'\nexport PATH="/usr/share/energia:$PATH"\n\n' >> .bashrc
 
 
@@ -86,7 +86,7 @@ echo $'[Desktop Entry]\nName=Sublime Text 3\nComment=Text Editor\nIcon=/usr/shar
 sudo cp sublime.desktop /usr/share/applications/sublime.desktop
 rm sublime.desktop
 
-        # bash terminal shortcuts to MySQL and sublime
+        # bash terminal shortcuts to sublime
 echo $'\nexport PATH="/usr/share/sublime_text_3:$PATH"\n\n' >> .bashrc
 
 
