@@ -91,10 +91,29 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   
   
-  </blockqoute>
+  </blockquote>
   
   <br>
   <br>
+  
+  <h2>Engineering</h2>
+  Set up to draw up design plans for structures and machines, then make some prototypes. (CURRENTLY IN PROGRESS --don't use yet)
+  
+  <blockqoute>
+  <h4>Instructions and Issues</h4>
+  
+  <ol>
+  <li>instructions coming when the thing gets debugged</li>
+  </ol>
+  
+  <br>
+  <br>
+  
+  <ul>
+  <li>issues coming when the thing gets debugged</li>
+  </ul>
+  
+  </blockqoute>
   
   more configurations coming soon...
   
