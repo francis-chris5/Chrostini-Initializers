@@ -16,7 +16,7 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
 
 
 <h2>Full Stack Developer</h2>
-My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts.
+My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache test environment, Sublime Text Editor, Firefox, and a number of working/scratch directories and shortcuts. This desktop also includes an assorment of 2D graphics programs to throw together images for the websites and webapps: Gimp (a well known editor, very powerful but that also makes it a little complicated for test images), KolourPaint (my current choice for quick and easy to get smiley-face and stick-man placeholder images ready in a couple seconds), and Inkscape (my preferred editor for .svg graphics for several years running now).
 
 
 ![full-stack-desktop](https://user-images.githubusercontent.com/50467171/117541125-6eb7b380-afe0-11eb-855a-143c83450458.png)
