@@ -71,7 +71,7 @@ echo $'\nexport PATH="/usr/share/energia:$PATH"\n\n' >> .bashrc
 
 
     ### TEXT EDITORS
-        # just because I don't like writing C++ libraries in IDE's
+        # just because I don't like writing C++ libraries in IDE's with keywords instead of Lexxing (how words change colors and get predicted)
 
 
         # sublime text editor
