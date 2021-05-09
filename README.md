@@ -119,13 +119,18 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>change permissions for engineering.sh file (I've just been going with 777 or 755)</li>
    <li>run the shell script by entering the command <b>./engineering.sh</b> and hitting enter</li>
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
+  <li><ul>start carrying out design and prototyping tasks
+    <li><b>blender</b> at any directory in bash to start the Blender 3D Modeling software, <b>blender /directory/filename.blend</b> to open a compatible file in it</li>
+    <li><b>arduino</b> at any directory in bash to start the Arduino IDE, <b>arduino /directory/filename.ino</b> to open a compatible file in it</li>
+    <li><b>energia</b> at any directory in bash to start the Energia IDE, <b>energia /directory/filename.ino</b> to open a compatible file in it</li>
+    <li><b>sublime</b> at any directory in bash to start the Sublime Text 3 text-editor, <b>sublime /directory/filename.extension</b> to open a compatible file in it</li>
+    </ul>
   </ol>
   
   <br>
   <br>
   
   <ul>
-  <li>issues coming when the thing gets debugged</li>
   <li>upon plugging in uno board a message popped up with option to 'connect usb to linux' if not go to chrome://flags and set chrostini-usb to enabled</li>
   </ul>
   
