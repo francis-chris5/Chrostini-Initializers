@@ -10,7 +10,8 @@ One of my favorite features on a Chromebook is the "Powerwash" ability. Very eas
   <li>Open Google Chrome and navigate to https://github.com/francis-chris5/Chrostini-Initializers to download the available desktops: click the green button labeled "Code" and choose 'Download Zip'</li>
   </li>In the ChromeOS Files App [alt+shift+m] Downloads folder you should see the zip file, simply click to navigate into it and find the desired desktop. Drag (or copy and paste) the .sh file into the 'Linux Files' directory</li>
   <li>Open the Linux Desktop terminal and type <b>chmod 755 (filename).sh</b> and hit enter, at the next prompt type <b>./(filename).sh</b> hit enter and wait for it to run. NOTE: (filename) is the name of the file you downloaded. Some of the desktops require confirmations, so check detailed instructions below to see if you need to enter 'y' a couple times as it installs</li>
-  <li>When the shell script finishes type <b>rm (filename).sh</b> and hit enter: you're ready to get to work now</li>
+  <li>When the shell script finishes type <b>rm (filename).sh</b> and hit enter, type <b>exit</b> to leave close the terminal and restart it so the changes to the config files are applied to the session, and you're ready to get to work now</li>
+  <li>NOTE: installing more than one of these desktops is no problem: it will ignore creating folders and shortcuts that already exist, and updating again after only a few seconds won't hurt anything</li>
   </ol>
 
 
@@ -29,8 +30,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
   <li>use ChromeOS Files App to move full-stack.sh to "Linux Files" directory</li>
   <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
-  <li>change permissions for full-stack.sh file (I've just been going with 777)</li>
-  <li>run the shell script (Still had to manually make confirmations for XAMPP install)</li>
+  <li>change permissions for full-stack.sh file (I've just been going with 777 or 755)</li>
+  <li>run the shell script by entering the command <b>./full-stack.sh</b> and hitting enter (Still had to manually make confirmations for XAMPP install)</li>
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li>remove the full-stack.sh file when complete</li>
   <li>exit and reopen the terminal so that the changes to .bashrc will get read in and the terminal shortcuts will work</li>
@@ -73,7 +74,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>use ChromeOS Files App to move paperwork.sh to "Linux Files" directory</li>
   <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
   <li>change permissions for paperwork.sh file (I've just been going with 777 or 755)</li>
-  <li>run the shell script</li>
+   <li>run the shell script by entering the command <b>./paperworkk.sh</b> and hitting enter</li>
+  <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li><ul>start carrying out document, spreadsheet, presentation, and small database tasks, along with filling software needs for scheduling, planning, budgeting, and communication.
     <li><b>libreoffice</b> at any directory in bash to start the Libre Office Suite, <b>libreoffice /directory/filename.od~</b> to open a compatible file in it</li>
     <li><b>gnucash</b> at any directory in bash to start GNU Cash Accounting Software</li>
@@ -109,7 +111,13 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <h4>Instructions and Issues</h4>
   
   <ol>
-  <li>instructions coming when the thing gets debugged</li>
+  <li>download the engineering.sh bash script</li>
+  <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
+  <li>use ChromeOS Files App to move engineering.sh to "Linux Files" directory</li>
+  <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
+  <li>change permissions for engineering.sh file (I've just been going with 777 or 755)</li>
+   <li>run the shell script by entering the command <b>./engineering.sh</b> and hitting enter</li>
+  <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   </ol>
   
   <br>
