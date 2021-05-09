@@ -103,9 +103,9 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   --picture coming soon--
   
-  <blockqoute>
   
   
+  <blockquote>
   <h4>Instructions and Issues</h4>
   
   <ol>
@@ -120,7 +120,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>upon plugging in uno board a message popped up with option to 'connect usb to linux' if not go to chrome://flags and set chrostini-usb to enabled</li>
   </ul>
   
-  </blockqoute>
+  </blockquote>
   
   more configurations coming soon...
   
