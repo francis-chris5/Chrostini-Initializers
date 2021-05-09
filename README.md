@@ -99,6 +99,10 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <h2>Engineering</h2>
   Set up to draw up design plans for structures and machines, then make some prototypes. (CURRENTLY IN PROGRESS --don't use yet)
   
+  The desktop includes Blender 2.79 (not real CAD->CAM but exports can be converted to .igs and .pwt (and more) files to feed into CDC machinary with FreeCAC). I've been using easyEDA.com for all of my PCB and SMT needs for a couple years now so I didn't put anything here, but might eventually. This desktop also inludes Arduino IDE which works with most bootloadable microcontrollers, and Energia which works with flash-only microcontollers (the real deal from Texas Instruments) but uses arduino libraries to keep the coding easy. I also skipped something for SBC (like rasberryPI, LattePanda, and Nvidia Jetson) because most of them can work with the bash shell on the chromebook already. There's also a nice text editor since I don't like writing C++ libraries in IDE's that use keywords instead of Lexxing (how words change colors and get predicted).
+  
+  --picture coming soon--
+  
   <blockqoute>
   <h4>Instructions and Issues</h4>
   
