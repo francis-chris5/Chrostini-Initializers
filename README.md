@@ -122,5 +122,10 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   </blockquote>
   
+  
+  
+  <br>
+  <br>
+  <br>
   more configurations coming soon...
   
