@@ -136,6 +136,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   <ul>
   <li>upon plugging in uno board a message popped up with option to 'connect usb to linux' if not go to chrome://flags and set chrostini-usb to enabled</li>
+  <li>The materials don't seem to render correctly in Sweet Home 3D, get the textures but not the color</li>
   </ul>
   
   </blockquote>
