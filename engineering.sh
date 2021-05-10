@@ -68,6 +68,25 @@ echo $'\nexport PATH="/usr/share/energia:$PATH"\n\n' >> .bashrc
 
 
 
+	### BIM Software
+		# Sweet Home 3D
+wget http://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-6.5.2/SweetHome3D-6.5.2-linux-x64.tgz
+tar -xf SweetHome3D-6.5.2-linux-x64.tgz
+rm SweetHome3D-6.5.2-linux-x64.tgz
+mv SweetHome3D-6.5.2/SweetHome3D SweetHome3D-6.5.2/sweethome
+sudo mv SweetHome3D-6.5.2 /usr/share
+
+			# Sweet Home Desktop Shorcut
+echo $'[Desktop Entry]\nName=Sweet Home 3D\nComment=BIM Software\nIcon=/usr/share/SweetHome3D-6.5.2/SweetHome3DIcon.png\nExec=/usr/share/SweetHome3D-6.5.2/sweethome\nType=Application\n' > sweethome.desktop
+sudo cp sweethome.desktop /usr/share/applications/sweethome.desktop
+rm sweethome.desktop
+
+        # bash terminal shortcuts to Sweet Home
+echo $'\nexport PATH="/usr/share/SweetHome3D-6.5.2:$PATH"\n\n' >> .bashrc
+
+
+
+
 
 
     ### TEXT EDITORS
@@ -88,20 +107,6 @@ rm sublime.desktop
 
         # bash terminal shortcuts to sublime
 echo $'\nexport PATH="/usr/share/sublime_text_3:$PATH"\n\n' >> .bashrc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
