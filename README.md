@@ -104,7 +104,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <h2>Engineering</h2>
   Set up to draw up design plans for structures and machines, then make some prototypes. (CURRENTLY IN PROGRESS --don't use yet)
   
-  The desktop includes Blender 2.79 (not real CAD->CAM but exports can be converted to .igs and .pwt (and more) files to feed into CDC machinary with FreeCAC). I've been using easyEDA.com for all of my PCB and SMT needs for a couple years now so I didn't put anything here, but might eventually. This desktop also inludes Arduino IDE which works with most bootloadable microcontrollers, and Energia which works with flash-only microcontollers (the real deal from Texas Instruments) but uses arduino libraries to keep the coding easy. I also skipped something for SBC (like rasberryPI, LattePanda, and Nvidia Jetson) because most of them can work with the bash shell on the chromebook already. There's also a nice text editor since I don't like writing C++ libraries in IDE's that use keywords instead of Lexxing (how words change colors and get predicted).
+  The desktop includes Blender 2.79 (not real CAD->CAM but exports can be converted to .igs and .pwt (and more) files to feed into CDC machinary with FreeCAC). Sweet Home 3D is the opensource BIM software currently selected to put together blueprints, floor plans, and bill of materials for building projects. I've been using easyEDA.com for all of my PCB and SMT needs for a couple years now so I didn't put anything here, but might eventually. This desktop also inludes Arduino IDE which works with most bootloadable microcontrollers, and Energia which works with flash-only microcontollers (the real deal from Texas Instruments) but uses arduino libraries to keep the coding easy. I also skipped something for SBC (like rasberryPI, LattePanda, and Nvidia Jetson) because most of them can work with the bash shell on the chromebook already. There's also a nice text editor since I don't like writing C++ libraries in IDE's that use keywords instead of Lexxing (how words change colors and get predicted).
   
  
  ![engineering-desktop](https://user-images.githubusercontent.com/50467171/117582843-034e0e80-b0d2-11eb-8d96-789b8db7f28e.png)
@@ -126,6 +126,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
     <li><b>blender</b> at any directory in bash to start the Blender 3D Modeling software, <b>blender /directory/filename.blend</b> to open a compatible file in it</li>
     <li><b>arduino</b> at any directory in bash to start the Arduino IDE, <b>arduino /directory/filename.ino</b> to open a compatible file in it</li>
     <li><b>energia</b> at any directory in bash to start the Energia IDE, <b>energia /directory/filename.ino</b> to open a compatible file in it</li>
+    <li><b>sweethome</b> at any directory in bash to start the Energia IDE, <b>sweethome /directory/filename.sh3d</b> to open a compatible file in it</li>
     <li><b>sublime</b> at any directory in bash to start the Sublime Text 3 text-editor, <b>sublime /directory/filename.extension</b> to open a compatible file in it</li>
     </ul>
   </ol>
