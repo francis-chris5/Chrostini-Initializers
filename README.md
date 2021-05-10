@@ -107,7 +107,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   The desktop includes Blender 2.79 (not real CAD->CAM but exports can be converted to .igs and .pwt (and more) files to feed into CDC machinary with FreeCAC). Sweet Home 3D is the opensource BIM software currently selected to put together blueprints, floor plans, and bill of materials for building projects. I've been using easyEDA.com for all of my PCB and SMT needs for a couple years now so I didn't put anything here, but might eventually. This desktop also inludes Arduino IDE which works with most bootloadable microcontrollers, and Energia which works with flash-only microcontollers (the real deal from Texas Instruments) but uses arduino libraries to keep the coding easy. I also skipped something for SBC (like rasberryPI, LattePanda, and Nvidia Jetson) because most of them can work with the bash shell on the chromebook already. There's also a nice text editor since I don't like writing C++ libraries in IDE's that use keywords instead of Lexxing (how words change colors and get predicted).
   
  
- ![engineering-desktop](https://user-images.githubusercontent.com/50467171/117582843-034e0e80-b0d2-11eb-8d96-789b8db7f28e.png)
+ ![engineering-desktop](https://user-images.githubusercontent.com/50467171/117593981-234df400-b10b-11eb-8e13-51c4ae169892.png)
   
   
   
