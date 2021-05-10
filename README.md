@@ -42,6 +42,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
     <li><b>mysql -h localhost -u root</b> to start MySQL, add in <b>-p (password)</b> if you change it from the default (see step 11 if MySQL is not running yet)</li>
     <li><b>idle</b> at any directory in bash to start the Idle IDE, <b>idle /directory/filename.py</b> to open a compatible file in it</li>
     <li><b>netbeans</b> at any directory in bash to start the NetBeans IDE, it is not recommended to open files to a complex IDE from a bash terminal, start it and open a project instead</li>
+    <li><b>inkscape</b> or <b>kolourpaint</b> or <b>gimp</b> at any directory in bash to start one of the image editors, follow the name with a space and <b>/directory/filename.py</b> to open a compatible file in it</li>
     <li><b>firefox-esr</b> at any directory in bash to start the Firefox browser, <b>firefox-esr localhost/htdocs-directory/filename.extension</b> to open a compatible file in it, or <b>firefox-esr localhost/phpmyadmin</b> to open the phpMyAdmin software to manage the MySQL instance</li>
     </ul></li>
   <li><b>inkscape</b> or <b>kolourpaint</b> or <b>gimp</b> at any directory in bash to start one of the image editors, follow the name with a space and <b>/directory/filename.py</b> to open a compatible file in it</li>
