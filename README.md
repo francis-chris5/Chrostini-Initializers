@@ -160,7 +160,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
   <li><ul>start using scripts to analyze your datasets
     <li><b>spyder</b> at any directory in bash to start the Spyder IDE, <b>spyder /directory/filename.py</b> to open a compatible file in it</li>
-    <li><b>jupyter notebook</b> at any directory in bash to start the Jupyter server and open the Notebooks App in Google Chrome</li>
+    <li><b>jupyter notebook</b> at any directory in bash to start the Jupyter server and open the Notebooks App in Google Chrome. NOTE: the jupyter server will need canceled out of (ctrl + c) when returning to the terminal.</li>
     <li><b>atom</b> at any directory in bash to start the Atom text editor, <b>atom /directory/filename</b> to open a compatible file in it</li>
     <li><b>python3</b> at any directory in bash to start the Python interpreter in the bash terminal, <b>python /directory/filename</b> to run a python script in it</li>
     <li><b>sudo pip3 install \<MODULE NAME\></b> at any directory to install python libraries accessible from any of the development environments</li>
