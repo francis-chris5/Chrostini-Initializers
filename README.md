@@ -141,6 +141,31 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   </blockquote>
   
+  <br>
+  <br>
+  
+  <h2>Data Analysis w/ Python</h2>
+  Setup for analyzing and visualizing large datasets with python: Spyder IDE, Jupyter Notebooks, and Atom text editor to get the scripts ready along with sci-py, pandas, matplotlib, and numpy Python modules to get started filtering, analyzing, and visualizing the data. If this seems to be pushing machine learning, it's close, but I didn't include any deep learning libraries because it's a chromebook setup: just use Google Colab to take advantage of automatically running on the best version of python for that library and powerful servers optimized to train your data. This setup will work for preparing the dataset locally though if that's what you're looking for. It also makes a pretty good starting point for general software development with Python on a chromebook.
+  
+  ![Screenshot 2021-12-30 12 23 01 AM](https://user-images.githubusercontent.com/50467171/147723943-26434d0f-459a-450a-be91-5f035123a514.png)
+  
+  <ol>
+  <li>download the data-analysis-python.sh bash script</li>
+  <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
+  <li>right click on MyDrive and Downloads and choose 'Share With Linux' for each</li>
+  <li>use ChromeOS Files App to move data-analysis-python.sh to "Linux Files" directory</li>
+  <li>start a bash terminal (there should be a linux desktop folder on apps screen now)</li>
+  <li>change permissions for data-analysis-python.sh file (I've just been going with 777 or 755)</li>
+   <li>run the shell script by entering the command <b>./data-analysis-python.sh</b> and hitting enter</li>
+  <li>grab a cup of coffee while the script runs, it takes a few minutes</li>
+  <li><ul>start using scripts to analyze your datasets
+    <li><b>spyder</b> at any directory in bash to start the Spyder IDE, <b>spyder /directory/filename.py</b> to open a compatible file in it</li>
+    <li><b>jupyter notebook</b> at any directory in bash to start the Jupyter server and open the Notebooks App in Google Chrome</li>
+    <li><b>atom</b> at any directory in bash to start the Atom text editor, <b>atom /directory/filename</b> to open a compatible file in it</li>
+    <li><b>python3</b> at any directory in bash to start the Python interpreter in the bash terminal, <b>python /directory/filename</b> to run a python script in it</li>
+    <li><b>sudo pip3 install \<MODULE NAME\></b> at any directory to install python libraries accessible from any of the development environments</li>
+    </ul>
+  </ol>
   
   
   <br>
