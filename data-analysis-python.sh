@@ -40,12 +40,16 @@ ln -s /opt/lampp/htdocs/
         # bash terminal shortcuts to MySQL and sublime
 echo $'\n\nexport PATH="/opt/lampp/bin:/opt/lampp:$PATH"\n\n' >> .bashrc
 
-
+        # browser to test with xampp localhost access for testing and phpMyAdmin for managing MySQL
+sudo apt install firefox-esr -y
 
 
 
 
 	### OFFICE SUITE 
+  
+        ## set up a java dependency
+sudo apt install libnss3 default-jdk -y
 
 		# LibreOffice 7.1
 wget https://apprepo.de/appimage/download/libreoffice
