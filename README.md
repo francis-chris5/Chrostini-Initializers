@@ -168,7 +168,8 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
     <li><b>python3</b> at any directory in bash to start the Python interpreter in the bash terminal, <b>python /directory/filename</b> to run a python script in it</li>
     <li><b>sudo pip3 install \<MODULE NAME\></b> at any directory to install python libraries accessible from any of the development environments</li>
       <li><b>libreoffice</b> at any directory in bash to start the Libre Office Suite, <b>libreoffice /directory/filename.od~</b> to open a compatible file in it</li>
-    <li><b>mysql -h localhost -u root</b> to start MySQL, add in <b>-p (password)</b> if you change it from the default (see step 11 if MySQL is not running yet)</li>
+    <li><b>xampp start apache mysql</b> from any terminal to start the localhost server and database</li>
+    <li><b>mysql -h localhost -u root</b> to start MySQL, add in <b>-p (password)</b> if you change it from the default (see previous step if MySQL is not running yet)</li>
     <li><b>firefox-esr</b> at any directory in bash to start the Firefox browser, <b>firefox-esr localhost/htdocs-directory/filename.extension</b> to open a compatible file in it, or <b>firefox-esr localhost/phpmyadmin</b> to open the phpMyAdmin software to manage the MySQL instance</li>
     </ul>
   </ol>
@@ -178,6 +179,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <ul>
     <li>Both Spyder IDE and Jupyter Notebook will occupy the Bash terminal while running so other software cannot be started while they are running. --Easy Workarounds: start other software first when able or run on ChromeOS or in Cloud instead of Linux when possible</li>
     <li>After shutting down Jupyter Notebooks the Jupyter server continues running and must be canceled out of in the Bash terminsl (ctrl + C)</li>
+    <li><b>enable</b> command does not seem to be working for the localhost server and database on the chromebook</li>
   </ul>
   
   <br>
