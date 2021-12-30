@@ -179,6 +179,7 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   <ul>
     <li>Both Spyder IDE and Jupyter Notebook will occupy the Bash terminal while running so other software cannot be started while they are running. --Easy Workarounds: start other software first when able or run on ChromeOS or in Cloud instead of Linux when possible</li>
     <li>After shutting down Jupyter Notebooks the Jupyter server continues running and must be canceled out of in the Bash terminsl (ctrl + C)</li>
+    <li>XAMPP installer requires user confirmation and confirm the confirmation, the installer seems to hang a couple spots -especially around 99%- just give it a while</li>
     <li><b>enable</b> command does not seem to be working for the localhost server and database on the chromebook</li>
   </ul>
   
