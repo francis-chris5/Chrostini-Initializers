@@ -149,6 +149,9 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
   
   ![Screenshot 2021-12-30 12 23 01 AM](https://user-images.githubusercontent.com/50467171/147723943-26434d0f-459a-450a-be91-5f035123a514.png)
   
+  <blockquote>
+  <h4>Instructions and Issues</h4>
+  
   <ol>
   <li>download the data-analysis-python.sh bash script</li>
   <li>activate Chrostini, Settings->Advanced->Developer->Linux(beta)</li>
@@ -167,6 +170,12 @@ My preferred setup for basic web development: Java, Python, PHP, MySQL, Apache t
     </ul>
   </ol>
   
+  <br>
+  <br>
+  <ul>
+    <li>Both Spyder IDE and Jupyter Notebook will occupy the Bash terminal while running so other software cannot be started while they are running. --Easy Workarounds: start other software first when able or run on ChromeOS or in Cloud instead of Linux when possible</li>
+    <li>After shutting down Jupyter Notebooks the Jupyter server continues running and must be canceled out of in the Bash terminsl (ctrl + C)</li>
+  </ul>
   
   <br>
   <br>
