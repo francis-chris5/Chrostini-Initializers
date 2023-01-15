@@ -22,16 +22,22 @@ sudo apt install spyder -y
 
 
 
-    # atom text editor
-wget https://atom-installer.github.com/v1.57.0/atom-amd64.deb
-sudo dpkg -i atom-amd64.deb
-sudo apt -f install -y
-rm atom-amd64.deb
+    # sublime text editor
+wget https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
+sudo tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/ 
+rm sublime_text_3_*_x64.tar.bz2
+sudo mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
+
+			# Sublime Desktop Shorcut
+echo $'[Desktop Entry]\nName=Sublime Text 3\nComment=Text Editor\nIcon=/usr/share/sublime_text_3/Icon/256x256/sublime-text.png\nExec=/usr/share/sublime_text_3/sublime\nType=Application\n' > sublime.desktop
+sudo cp sublime.desktop /usr/share/applications/sublime.desktop
+rm sublime.desktop
+
 
 
         # XAMPP (Apache, PHP, MySQL)
                 # check https://www.apachefriends.org/download.html for latest version
-wget https://www.apachefriends.org/xampp-files/7.4.18/xampp-linux-x64-7.4.18-0-installer.run
+wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.0/xampp-linux-x64-8.2.0-0-installer.run
 sudo chmod 755 xampp-linux-*-installer.run
 sudo ./xampp-linux-*-installer.run
 rm xampp-linux-*-installer.run
