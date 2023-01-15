@@ -28,6 +28,12 @@ sudo tar -xf sublime_text_3_*_x64.tar.bz2 -C /usr/share/
 rm sublime_text_3_*_x64.tar.bz2
 sudo mv /usr/share/sublime_text_3/sublime_text /usr/share/sublime_text_3/sublime
 
+
+        # bash terminal shortcuts to sublime
+echo $'\nexport PATH="/usr/share/sublime_text_3:$PATH"\n\n' >> .bashrc
+
+
+
 			# Sublime Desktop Shorcut
 echo $'[Desktop Entry]\nName=Sublime Text 3\nComment=Text Editor\nIcon=/usr/share/sublime_text_3/Icon/256x256/sublime-text.png\nExec=/usr/share/sublime_text_3/sublime\nType=Application\n' > sublime.desktop
 sudo cp sublime.desktop /usr/share/applications/sublime.desktop
@@ -43,7 +49,7 @@ sudo ./xampp-linux-*-installer.run
 rm xampp-linux-*-installer.run
 sudo chmod 777 /opt/lampp/htdocs
 ln -s /opt/lampp/htdocs/
-        # bash terminal shortcuts to MySQL and sublime
+        # bash terminal shortcuts to MySQL
 echo $'\n\nexport PATH="/opt/lampp/bin:/opt/lampp:$PATH"\n\n' >> .bashrc
 
         # browser to test with xampp localhost access for testing and phpMyAdmin for managing MySQL
